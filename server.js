@@ -15,9 +15,9 @@ var express = require("express"),
     userAndSocket = {}, // object that stores username to socketid value
     onlineUsers = []; // array that stores current logged in users
 
-// If Cloud Foundry service is available
-if (process.env.VCAP_SERVICES) {
-    mongoURL = JSON.parse(process.env.VCAP_SERVICES).mongolab[0].credentials.uri;
+// If Heroku's MongoDB service is available
+if (process.env.MONGODB_URI) {
+    mongoURL = process.env.MONGODB_URI;
 }
 
 // connect to mongoDB
