@@ -2,7 +2,7 @@
 
 Cinder is a social platform in which programmers can interact and exchange ideas in hopes of building something cool together. It is a RESTful web app with real-time interaction powered by [Node.js](https://nodejs.org/api/), [Express.js](http://expressjs.com/en/api.html), [MongoDB](https://docs.mongodb.com/), and [Socket.io](https://github.com/socketio/socket.io).
 
-Feel free to try out here: http://cinder.cfapps.io/
+Feel free to try out here: https://cpsc473-project2.herokuapp.com/
 
 #### What we're using (frameworks, modules, libraries, etc):
 
